@@ -1,0 +1,100 @@
+/* Container for the entire page */
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+  height: 100vh;
+}
+
+/* Logo and menu title styling */
+.logo-container {
+  margin-bottom: 30px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-title h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Card container holding each section */
+.menu-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+/* Individual card styles */
+.section-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.section-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Icon style */
+.icon {
+  font-size: 3em;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+/* Title and description within each card */
+h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* Button style */
+.button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #357ab7;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+  
+  

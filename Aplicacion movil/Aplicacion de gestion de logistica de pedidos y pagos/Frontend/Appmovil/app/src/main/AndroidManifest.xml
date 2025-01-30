@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Examen"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Vehiculos"
+            android:exported="false" />
+        <activity
+            android:name=".Suministros"
+            android:exported="false" />
+        <activity
+            android:name=".Reportes"
+            android:exported="false" />
+        <activity
+            android:name=".MenuRecepcionPagos"
+            android:exported="false" />
+        <activity
+            android:name=".EnvioPagos"
+            android:exported="false" />
+        <activity
+            android:name=".GestionarPagos"
+            android:exported="false" />
+        <activity
+            android:name=".PedidosProveedor"
+            android:exported="false" />
+        <activity
+            android:name=".MenuAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".MenuProveedor"
+            android:exported="false" />
+        <activity
+            android:name=".Administrador"
+            android:exported="false" />
+        <activity
+            android:name=".Proveedor"
+            android:exported="false" />
+        <activity
+            android:name=".registro"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+/* Estilo para el componente Header */
+/* Estilo para el componente Header */
+header {
+    background: rgb(6, 6, 126); /* Fondo azul */
+    width: 180px; /* Ancho fijo para la barra lateral */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    position: fixed; /* Posición fija en el lado izquierdo */
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center;
+    padding-top: 0; /* Elimina el espacio superior */
+}
+
+.navbar {
+    background: transparent; /* Transparente para respetar el fondo del header */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px; /* Espacio pequeño arriba del logo */
+}
+
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.navbar .navbar-brand img {
+    width: 120px; /* Logo más ancho */
+    height: auto;
+    margin-bottom: 0; /* Sin margen debajo del logo */
+}
+
+.navbar .nav-link {
+    color: #fff; /* Blanco para los enlaces */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    background: #23c7ec; 
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-color: #dee2e6;
+    margin-top: 20px;
+}
+
+.navbar-toggler {
+    display: none; /* Oculta el toggler en la barra lateral */
+}

@@ -1,0 +1,43 @@
+/* Login.css */
+.login-page {
+    background-image: url('../img/Login.png'); /* Cambia 'Login.png' por el nombre correcto si es necesario */
+    background-size: 55%; /* Ajusta la imagen para que se vea completa en el área de login */
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container-login {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff; /* Color de texto blanco para mejor legibilidad */
+}
+
+.form-outline input {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para los inputs */
+    color: #000; /* Color del texto en los inputs para que sea legible */
+}
+
+.form-outline label {
+    color: #ffffff; /* Color blanco para los labels */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.alert-danger {
+    background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo semitransparente */
+    color: #fff;
+}
